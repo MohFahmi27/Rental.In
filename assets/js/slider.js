@@ -24,7 +24,7 @@ $(".slider-nav-product").slick({
       }
     },
     {
-      breakpoint: 850,
+      breakpoint: 901,
       settings: {
         arrows: false,
         centerMode: true,
@@ -33,7 +33,7 @@ $(".slider-nav-product").slick({
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 710,
       settings: {
         arrows: false,
         slidesToShow: 1,
@@ -42,7 +42,7 @@ $(".slider-nav-product").slick({
       }
     },
     {
-      breakpoint: 380,
+      breakpoint: 390,
       settings: {
         arrows: false,
         slidesToShow: 1,
@@ -76,53 +76,4 @@ $("a").on('click', function(event) {
       window.location.hash = hash;
     });
   } // End if
-});
-
-$(".slider-nav-product").slick({
-  slidesToShow: 3,
-  slidesToScroll: 3,
-  dots: false,
-  focusOnSelect: false,
-  autoplay: false,
-  centerMode:true,
-  responsive: [
-    {
-      breakpoint: 1124,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        centerMode: false
-      }
-    },
-    {
-      breakpoint: 850,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        slidesToShow: 2,
-        slidesToScroll: 2,        
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerMode: true
-      }
-    },
-    {
-      breakpoint: 380,
-      settings: {
-        arrows: false,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerMode: false
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
 });
