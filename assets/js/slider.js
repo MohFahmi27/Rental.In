@@ -8,8 +8,8 @@ $(".slider-nav").slick({
   });
 
 $(".slider-nav-product").slick({
-  slidesToShow: 3,
-  slidesToScroll: 3,
+  slidesToShow: 2,
+  slidesToScroll: 1,
   dots: false,
   focusOnSelect: false,
   autoplay: false,
@@ -18,9 +18,9 @@ $(".slider-nav-product").slick({
     {
       breakpoint: 1124,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        centerMode: false
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: true
       }
     },
     {

@@ -3,7 +3,7 @@
 }
 
 body{
-  overflow-x: scroll !important;
+  overflow-x: hidden !important;
 }
 
 .is-borderless{
@@ -98,7 +98,7 @@ img.absolute {
   width: 250px;
   height: 125px;
   border-radius: 10px;
-  top: 170px;
+  top: 200px;
   left: 25px;
   box-shadow: 0 0.5em 1em -0.123em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
   padding: 1rem; }
@@ -133,7 +133,7 @@ figcaption {
   width: 265px;
   height: auto;
   border-radius: 10px 10px 20px 20px;
-  top: 170px;
+  top: 190px;
   left: 20px;
   box-shadow: 0 0.5em 1em -0.123em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
   padding: 1rem;
@@ -157,11 +157,6 @@ figcaption {
 /* width */
 ::-webkit-scrollbar {
   width: 8px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  display: none;
 }
  
 /* Handle */
